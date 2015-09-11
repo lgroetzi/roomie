@@ -84,7 +84,7 @@
   }
 
   section.module.parallax {
-    height: 600px;
+    height: 300px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -162,6 +162,9 @@ h6 {
   text-shadow: 0 0 4px rgba(255, 255, 255, .2);
   line-height: 27px;
   margin-top: 18px;
+}
+.contact a {
+  font-size: 14px;
 }
 
 .text-group {
