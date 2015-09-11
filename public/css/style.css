@@ -61,6 +61,16 @@
     padding-top: 20px;
   }
 
+  section.module.parallax-1 {
+    background-position: center;
+    height: 100%;
+    width: auto;
+  }
+
+  section.module.parallax-2 {
+    background-position: center;
+  }
+
 } 
 
 /*GLOBAL STYLING*/
