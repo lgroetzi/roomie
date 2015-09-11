@@ -1,0 +1,241 @@
+@media all and (min-width: 992px) {
+  .container {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+
+  .project {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .header {
+    margin-top: 150px;
+  }
+  .project-2 {
+    padding-top: 40px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .project {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+
+  .header {
+    margin-top: 60px;
+  }
+  .project-2 {
+    padding-top: 25px;
+  }
+}
+
+@media all and (max-width: 768px) {
+
+  .project {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  section.module.parallax h1 {
+    font-size: 56px;
+    line-height: 44px;
+    margin-bottom: 20px;
+  }
+
+  .header {
+    margin-top: 30px;
+  }
+
+  .text-group {
+    margin-top: 50px;
+  }
+
+  .project-2 {
+    padding-top: 20px;
+  }
+
+} 
+
+/*GLOBAL STYLING*/
+
+html {
+  min-height: 700px;
+  position: relative;
+  color: #222;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0px auto;
+  position: relative;
+  color: #585858;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 10px
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  color: #CC4058;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 0;
+  line-height: 30px;
+  font-weight: 300;
+  color: #F6D4D4;
+}
+
+h4 {
+  font-size: 20px;
+  color: #515050;
+  font-weight: 300;
+  text-shadow: 0 0 4px rgba(255, 255, 255, .2);
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+h5 {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 16px;
+  color: #F6D4D4;
+}
+
+h6 {
+  font-size: 17px;
+  color: #515050;
+  font-weight: 300;
+  text-shadow: 0 0 4px rgba(255, 255, 255, .2);
+  line-height: 27px;
+  margin-top: 18px;
+}
+
+.text-group {
+  margin-bottom: 25px;
+}
+
+.project h4 {
+  margin-bottom: 30px;  
+}
+
+.project-bg {
+  background-color: #F3F3F3;
+}
+
+.project-margin {
+  margin-top: 40px;
+}
+
+.gray-text {
+  color: #BDBDBD;
+}
+
+section.module.parallax h1 {
+  color: #fff;
+  font-family: 'lato';
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  line-height: 50px;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+section.module.parallax h3 {
+  margin-bottom: 15px;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+/* === PARALLAX IMAGES === */
+
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section.module.parallax-1 {
+  background-image: url("../img/couch.jpg");
+}
+
+section.module.parallax-2 {
+  background-image: url("../img/living-room-big.jpg");
+}
+
+.dark-bg {
+  background-color: #434343;
+  color: #fff;
+}
+
+/* === GENERAL BUTTON === */
+
+a {
+  font-size: 22px;
+  color: #B7305A;
+  font-weight: 300;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #75979B;
+}
+
+a, a:visited, a:focus {
+  text-decoration: none;
+}
+
+.gray-text {
+  color: #8D8D8D;
+}
+
+.inline {
+  display: inline;
+}
+
+#nav-background {
+  position: fixed;
+  width: 100%;
+  height: 62px;
+  background-color: rgba(36, 36, 36, 0  );
+  z-index: 99;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+li {
+  font-size: 18px;
+  color: #515050;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 3px 0;
+}
